@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import "../App.css";
 
 function Intervention() {
@@ -21,9 +21,7 @@ function Intervention() {
           que mejor se adapte a tus necesidades
         </p>
       </div>
-      <Link to="/">
-        <button className="button_links">Atrás</button>
-      </Link>
+
     </div>
   );
 }

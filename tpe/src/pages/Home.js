@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="app">
       <div className="top_screen">
-        <p>
-          En TodoPet somos especialistas en Intervenciión Asistida con Perros y
+        <p className="intro">
+          En TodoPet somos especialistas en Intervención Asistida con Perros y
           Educación Canina
         </p>
         <div className="button_container">

@@ -1,11 +1,11 @@
-import { Link } from "react-router-dom";
+
 import "../App.css";
 
 function Education() {
   return (
     <div className="card_app">
       <div className="tittle">
-        <span>Intervención Asistida con Perros</span>
+        <span>Educación Canina</span>
       </div>
       <div className=" texto">
         <p>
@@ -22,9 +22,7 @@ function Education() {
           aprendiendo
         </p>
       </div>
-      <Link to="/">
-        <button className="button_links">Atrás</button>
-      </Link>
+
     </div>
   );
 }
